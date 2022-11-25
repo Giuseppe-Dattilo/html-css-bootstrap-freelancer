@@ -1,47 +1,16 @@
 
-/* Header */
-
-header{
-background-color: #2c3e50;
-border: 1px dashed green;
-min-height: 80px;
-color: white;
-}
-
-.row{
-border: 1px dashed dodgerblue;
-}
-
-.row > [class^='col']{
-border: 1px dashed red;
-}
-
-.row > [class^='off']{
-border: 1px dashed black;
-}
-
 section{
-min-height: 300px;
-border: 1px dashed blue;
+min-height: 450px;
 }
 
-#jumbotron, 
-#about{
+.bg-cust-lightgreen{
 background-color: #1abc9b;
-color: white;
 }
 
-/* Footer */
-
-footer{
-color: white;
-}
-
-.footer-top{
-min-height: 80px;
+.bg-cust-green{
 background-color: #39546d;
 }
 
-.footer-bottom{
+.bg-cust-darkgreen {
 background-color: #2c3e50;
 }
